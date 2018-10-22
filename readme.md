@@ -14,15 +14,18 @@ Conta do Twitter utilizada: @RacismDog
 
 ## Execuções
 
+	composer install
+	configurar .env
 
-	- Autenticação para API
+	- Campos para autenticação da API
 		TWITTER_CONSUMER_KEY=
 		TWITTER_CONSUMER_SECRET=
 		TWITTER_ACCESS_TOKEN=
 		TWITTER_ACCESS_TOKEN_SECRET=
 
-	- Comando Laravel para extração dos dados da API.
+	- Comando Laravel para extração dos tweets de algum usuário.
 		php artisan tweets:get {nome_usuario}
+		(Necessita estar dentro da máquina virtual via comando vagrant ssh)
 	
 	- Exibição dos Tweets
 		http://localhost/api/{Usuário}/tweets?order=ASC&order_by=fav_count
