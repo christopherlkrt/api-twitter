@@ -2,6 +2,8 @@
 
 API para Coleta e Listagem de Tweets. 
 
+Conta do Twitter utilizada: @RacismDog
+
 ## Tecnologias
 
 	- Laravel
@@ -28,6 +30,6 @@ API para Coleta e Listagem de Tweets.
 		Atributos para filtragem:
 		Like/Favorito = fav_count
 		Retweet = rt_count
-		Data: tweeted_at
+		Data = tweeted_at
 
 
