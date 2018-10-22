@@ -1,6 +1,6 @@
-## API-
+## API-TWITTER
 
-Projeto de folha de pagamento de funcionários 
+API para Coleta e Listagem de Tweets. 
 
 ## Tecnologias
 
@@ -30,4 +30,4 @@ Projeto de folha de pagamento de funcionários
 		Retweet = rt_count
 		Data: tweeted_at
 
-		
+
